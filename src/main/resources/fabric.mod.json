@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "uuid_off",
+  "version": "${version}",
+  "name": "UUID_Off",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/20ent/untitled"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/uuid_off/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
